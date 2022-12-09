@@ -6,6 +6,9 @@ set -e
 # 构建
 npm run build
 
+cp MP_verify_iAVTSMsqakpFVeWe.txt dist/
+cp test.txt dist/assets
+
 # 进入构建文件夹
 cd dist
 
